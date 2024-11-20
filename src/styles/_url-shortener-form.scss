@@ -1,0 +1,53 @@
+.url-shortener-form {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @media only screen and (min-width: 768px) {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    input {
+      padding: 0.5rem;
+      border: 1px solid #8B87A5;
+      border-radius: 8px;
+    }
+
+    button {
+      padding: 0.625rem 1rem;
+      font-size: 0.75rem;
+      line-height: 1;
+      font-weight: 700;
+      border: 0;
+      border-radius: 4px;
+      background-color: #211E31;
+      color: #fff;
+      cursor: pointer;
+
+      &:hover {
+        filter: opacity(0.8);
+      }
+    }
+
+    @media only screen and (min-width: 768px) {
+      justify-content: space-between;
+
+      input {
+        flex: 1;
+      }
+    }
+  }
+}
