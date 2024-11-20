@@ -1,3 +1,7 @@
+@import 'reset';
+@import 'variables';
+
 h1 {
-  color: orange;
+  color: $cyan;
+  font-family: $font-poppins;
 }
