@@ -1,0 +1,22 @@
+@use 'variables';
+
+.navigation-social-link-list {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  .navigation-social-link-items {
+    a {
+      padding: 0.5rem 0.75rem;
+      font-size: 0.75rem;
+      line-height: 0.75rem;
+      border-radius: 4px;
+      color: #fff;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        filter: opacity(0.8);
+      }
+    }
+  }
+}
